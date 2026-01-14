@@ -11,7 +11,6 @@ body {
     padding-bottom: 40px;
 }
 
-/* Navigation */
 .navbar {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -66,14 +65,14 @@ body {
     color: white;
 }
 
-/* Container */
+
 .container {
     max-width: 1400px;
     margin: 40px auto;
     padding: 0 40px;
 }
 
-/* Header */
+
 .header {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -117,7 +116,7 @@ body {
     margin-top: 5px;
 }
 
-/* Table Section */
+
 .table-section {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -167,7 +166,7 @@ body {
     font-size: 16px;
 }
 
-/* Table */
+
 table {
     width: 100%;
     border-collapse: separate;
@@ -392,7 +391,7 @@ tbody td:last-child {
     border-color: #d0d0d0;
 }
 
-/* Empty State */
+
 .empty-state {
     text-align: center;
     padding: 80px 20px;
@@ -410,7 +409,9 @@ tbody td:last-child {
     margin-bottom: 30px;
 }
 
-/* Responsive */
+
+
+
 @media (max-width: 768px) {
     .nav-container {
         flex-direction: column;
